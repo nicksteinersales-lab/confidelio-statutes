@@ -1,0 +1,84 @@
+# Builds every state's statute index weekly and publishes it to the "latest"
+# release. A state is published only if its checks pass; otherwise the release
+# keeps its last good version and this run fails (GitHub emails the owner).
+name: Build statutes
+on:
+  schedule:
+    - cron: "17 9 * * 1"   # Mondays 09:17 UTC
+  workflow_dispatch:
+    inputs:
+      states:
+        description: "States to build, e.g. ca,tx (blank = all)"
+        required: false
+        default: ""
+permissions:
+  contents: write
+concurrency:
+  group: statutes
+  cancel-in-progress: false
+env:
+  GH_TOKEN: ${{ github.token }}
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      states: ${{ steps.p.outputs.states }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        env:
+          WANT: ${{ inputs.states }}
+        run: |
+          if [ -n "$WANT" ]; then list="$WANT"; else list=$(ls states | paste -sd, -); fi
+          echo "states=$(echo "$list" | tr -d ' ' | tr 'A-Z' 'a-z' | jq -Rc 'split(",") | map(select(length > 0))')" >> "$GITHUB_OUTPUT"
+      - name: Make sure the release exists
+        run: gh release view latest >/dev/null 2>&1 || gh release create latest --title "Latest statutes" --notes "Rebuilt weekly from official sources. Each state is published only after its checks pass."
+
+  build:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        state: ${{ fromJson(needs.plan.outputs.states) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Fetch from the official source
+        run: bash states/${{ matrix.state }}/fetch.sh work/parts
+      - name: Build the index
+        run: node --no-warnings build-index.mjs ${{ matrix.state }} work/parts work/${{ matrix.state }}.sqlite
+      - name: Check before publishing
+        run: |
+          gh release download latest -p "${{ matrix.state }}.json" -D work/prev || true
+          node --no-warnings check.mjs ${{ matrix.state }} work/${{ matrix.state }}.sqlite work/${{ matrix.state }}.json work/prev/${{ matrix.state }}.json
+      - name: Publish
+        run: |
+          s=${{ matrix.state }}
+          gzip -9 -n -c work/$s.sqlite > work/$s.sqlite.gz
+          sha=$(sha256sum work/$s.sqlite.gz | cut -d' ' -f1)
+          bytes=$(stat -c %s work/$s.sqlite.gz)
+          jq --arg sha "$sha" --argjson bytes "$bytes" '. + {sha256: $sha, bytes: $bytes}' work/$s.json > work/$s.final.json
+          mv work/$s.final.json work/$s.json
+          gh release upload latest work/$s.sqlite.gz --clobber
+          gh release upload latest work/$s.json --clobber
+          cat work/$s.json
+
+  index:
+    needs: build
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish index.json (every state currently in the release)
+        run: |
+          mkdir -p work && cd work
+          gh release download latest -p "*.json" --clobber
+          rm -f index.json
+          jq -s '{built: (now | todate), states: .}' *.json > index.json
+          gh release upload latest index.json --clobber
+          cat index.json
