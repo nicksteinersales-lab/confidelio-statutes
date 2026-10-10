@@ -1,0 +1,13 @@
+{
+  "name": "California Codes",
+  "minSections": 150000,
+  "known": [
+    { "code": "CIV", "section": "1950.5", "contains": "security for a rental agreement" },
+    { "code": "CIV", "section": "1942.5", "contains": "retaliates" },
+    { "code": "CIV", "section": "1788.17", "contains": "debt collector" },
+    { "code": "CCP", "section": "116.220", "contains": "small claims court has jurisdiction" },
+    { "code": "FAM", "section": "2310", "contains": "dissolution of the marriage" },
+    { "code": "LAB", "section": "1102.5", "contains": "employer" },
+    { "code": "PEN", "section": "187", "contains": "murder is the unlawful killing" }
+  ]
+}
