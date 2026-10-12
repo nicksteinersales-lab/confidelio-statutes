@@ -1,0 +1,14 @@
+{
+  "name": "Texas Statutes and Constitution",
+  "minSections": 85000,
+  "known": [
+    { "code": "PR", "section": "92.109", "contains": "bad faith retains a security deposit" },
+    { "code": "PR", "section": "24.005", "contains": "notice to vacate" },
+    { "code": "FA", "section": "6.001", "contains": "insupportability" },
+    { "code": "LA", "section": "21.051", "contains": "unlawful employment practice" },
+    { "code": "CP", "section": "16.003", "contains": "two years" },
+    { "code": "PE", "section": "19.02", "contains": "murder" },
+    { "code": "BC", "section": "17.46", "contains": "deceptive" },
+    { "code": "CN", "section": "1.3a", "contains": "equality under the law" }
+  ]
+}
