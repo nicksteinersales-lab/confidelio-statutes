@@ -1,0 +1,14 @@
+{
+  "name": "Illinois Compiled Statutes",
+  "minSections": 65000,
+  "known": [
+    { "code": "765/710", "section": "1", "contains": "security deposit" },
+    { "code": "765/705", "section": "1", "contains": "liability" },
+    { "code": "735/5", "section": "9-106", "contains": "possession" },
+    { "code": "750/5", "section": "503", "contains": "marital property" },
+    { "code": "820/105", "section": "4", "contains": "every employer shall pay" },
+    { "code": "720/5", "section": "9-1", "contains": "first degree murder" },
+    { "code": "815/505", "section": "2", "contains": "deceptive" },
+    { "code": "740/14", "section": "15", "contains": "biometric" }
+  ]
+}
