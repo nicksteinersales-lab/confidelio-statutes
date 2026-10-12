@@ -6,6 +6,7 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 |---|---|
 | California | California Legislature bulk download, https://downloads.leginfo.legislature.ca.gov/ |
 | Texas | Texas Legislative Council code downloads, https://statutes.capitol.texas.gov/Download.aspx (all codes and the Constitution, except Special District Local Laws) |
+| Florida | Florida Legislature, Online Sunshine, http://www.leg.state.fl.us/statutes/ (every chapter of the Florida Statutes, read page by page; no bulk download exists) |
 
 ## How it works
 
