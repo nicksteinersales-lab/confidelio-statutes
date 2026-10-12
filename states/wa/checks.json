@@ -1,0 +1,14 @@
+{
+  "name": "Revised Code of Washington",
+  "minSections": 30000,
+  "known": [
+    { "code": "RCW", "section": "59.18.280", "contains": "full and specific statement" },
+    { "code": "RCW", "section": "59.12.030", "contains": "unlawful detainer" },
+    { "code": "RCW", "section": "26.09.080", "contains": "dissolution of the marriage" },
+    { "code": "RCW", "section": "49.46.020", "contains": "every employer shall pay" },
+    { "code": "RCW", "section": "9A.32.030", "contains": "murder" },
+    { "code": "RCW", "section": "19.86.020", "contains": "unfair methods of competition" },
+    { "code": "RCW", "section": "4.16.080", "contains": "three years" },
+    { "code": "RCW", "section": "49.60.180", "contains": "unfair practice" }
+  ]
+}
