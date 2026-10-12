@@ -5,6 +5,7 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 | State | Source |
 |---|---|
 | California | California Legislature bulk download, https://downloads.leginfo.legislature.ca.gov/ |
+| Texas | Texas Legislative Council code downloads, https://statutes.capitol.texas.gov/Download.aspx (all codes and the Constitution, except Special District Local Laws) |
 
 ## How it works
 
