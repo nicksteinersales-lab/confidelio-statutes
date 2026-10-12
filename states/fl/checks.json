@@ -1,0 +1,14 @@
+{
+  "name": "Florida Statutes",
+  "minSections": 23000,
+  "known": [
+    { "code": "FS", "section": "83.49", "contains": "deposit money or advance rent" },
+    { "code": "FS", "section": "83.56", "contains": "termination of rental agreement" },
+    { "code": "FS", "section": "61.075", "contains": "equitable distribution" },
+    { "code": "FS", "section": "95.11", "contains": "limitations" },
+    { "code": "FS", "section": "501.204", "contains": "unfair or deceptive" },
+    { "code": "FS", "section": "448.102", "contains": "employer may not take any retaliatory" },
+    { "code": "FS", "section": "782.04", "contains": "murder" },
+    { "code": "FS", "section": "718.111", "contains": "association" }
+  ]
+}
