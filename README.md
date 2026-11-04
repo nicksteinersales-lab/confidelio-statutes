@@ -12,6 +12,7 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 | Ohio | Ohio Legislative Service Commission, https://codes.ohio.gov/ohio-revised-code (the Ohio Revised Code, read chapter by chapter; each chapter page carries every section) |
 | North Carolina | North Carolina General Assembly, https://www.ncleg.gov/Laws/GeneralStatutesTOC (the General Statutes, read chapter by chapter) |
 | Virginia | Virginia Division of Legislative Services, https://law.lis.virginia.gov/vacode/ (the Code of Virginia, read chapter by chapter) |
+| New York | New York State Senate Open Legislation API, https://legislation.nysenate.gov (every consolidated and unconsolidated law; needs the NY_OPENLEG_KEY repo secret) |
 
 ## How it works
 

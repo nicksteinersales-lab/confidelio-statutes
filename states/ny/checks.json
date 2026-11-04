@@ -1,0 +1,14 @@
+{
+  "name": "New York Consolidated and Unconsolidated Laws",
+  "minSections": 50000,
+  "known": [
+    { "code": "GOB", "section": "7-108", "contains": "security" },
+    { "code": "RPP", "section": "235-B", "contains": "habitab" },
+    { "code": "RPA", "section": "711", "contains": "tenant" },
+    { "code": "CVP", "section": "214", "contains": "three years" },
+    { "code": "GBS", "section": "349", "contains": "deceptive" },
+    { "code": "DOM", "section": "236", "contains": "marital property" },
+    { "code": "LAB", "section": "191", "contains": "wages" },
+    { "code": "PEN", "section": "125.25", "contains": "murder" }
+  ]
+}
