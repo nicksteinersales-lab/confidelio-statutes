@@ -1,0 +1,14 @@
+{
+  "name": "Code of Virginia",
+  "minSections": 25000,
+  "known": [
+    { "code": "VA", "section": "55.1-1226", "contains": "security deposit" },
+    { "code": "VA", "section": "55.1-1245", "contains": "noncompliance" },
+    { "code": "VA", "section": "55.1-1204", "contains": "rental agreement" },
+    { "code": "VA", "section": "8.01-243", "contains": "two years" },
+    { "code": "VA", "section": "59.1-200", "contains": "prohibited" },
+    { "code": "VA", "section": "20-107.3", "contains": "marital property" },
+    { "code": "VA", "section": "40.1-29", "contains": "wages" },
+    { "code": "VA", "section": "18.2-32", "contains": "murder" }
+  ]
+}
