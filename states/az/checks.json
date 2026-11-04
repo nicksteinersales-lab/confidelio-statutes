@@ -1,0 +1,13 @@
+{
+  "name": "Arizona Revised Statutes",
+  "minSections": 25000,
+  "known": [
+    { "code": "ARS", "section": "33-1321", "contains": "security" },
+    { "code": "ARS", "section": "33-1368", "contains": "noncompliance" },
+    { "code": "ARS", "section": "12-542", "contains": "two years" },
+    { "code": "ARS", "section": "44-1522", "contains": "deceptive" },
+    { "code": "ARS", "section": "25-318", "contains": "community" },
+    { "code": "ARS", "section": "23-353", "contains": "wages" },
+    { "code": "ARS", "section": "13-1105", "contains": "murder" }
+  ]
+}
