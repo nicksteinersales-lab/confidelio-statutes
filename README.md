@@ -24,6 +24,8 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 | Nevada | Legislative Counsel Bureau, https://www.leg.state.nv.us/NRS/ (the Nevada Revised Statutes, one page per chapter) |
 | Delaware | Delaware Code Revisors, https://delcode.delaware.gov (the Delaware Code, one page per chapter) |
 | Vermont | Office of Legislative Counsel, https://legislature.vermont.gov/statutes/ (the Vermont Statutes, one page per chapter) |
+| South Dakota | Legislative Research Council, https://sdlegislature.gov/Statutes (the Codified Laws, from the Legislature's JSON API) |
+| District of Columbia | Council of the District of Columbia, https://github.com/DCCouncil/law-xml-codified (the D.C. Code in official XML) |
 
 ## How it works
 

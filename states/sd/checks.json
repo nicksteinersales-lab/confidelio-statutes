@@ -1,0 +1,7 @@
+{ "name": "South Dakota Codified Laws", "minSections": 15000, "known": [
+  { "code": "SDCL", "section": "43-32-6.1", "contains": "security deposit" },
+  { "code": "SDCL", "section": "15-2-13", "contains": "six years" },
+  { "code": "SDCL", "section": "37-24-6", "contains": "deceptive" },
+  { "code": "SDCL", "section": "25-4-41", "contains": "support" },
+  { "code": "SDCL", "section": "60-11-10", "contains": "wages" },
+  { "code": "SDCL", "section": "22-16-4", "contains": "murder" } ] }

@@ -1,0 +1,8 @@
+{ "name": "D.C. Code", "minSections": 20000, "known": [
+  { "code": "DC", "section": "42-3502.17", "contains": "security deposit" },
+  { "code": "DC", "section": "42-3505.01", "contains": "notice" },
+  { "code": "DC", "section": "12-301", "contains": "3 years" },
+  { "code": "DC", "section": "28-3904", "contains": "unfair" },
+  { "code": "DC", "section": "16-913", "contains": "alimony" },
+  { "code": "DC", "section": "32-1303", "contains": "wages" },
+  { "code": "DC", "section": "22-2101", "contains": "murder" } ] }
