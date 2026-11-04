@@ -49,6 +49,8 @@ jobs:
         with:
           node-version: "22"
       - name: Fetch from the official source
+        env:
+          NY_OPENLEG_KEY: ${{ secrets.NY_OPENLEG_KEY }}
         run: bash states/${{ matrix.state }}/fetch.sh work/parts
       - name: Build the index
         run: node --no-warnings build-index.mjs ${{ matrix.state }} work/parts work/${{ matrix.state }}.sqlite
