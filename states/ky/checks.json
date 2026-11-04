@@ -1,0 +1,3 @@
+{ "name": "Kentucky Revised Statutes", "minSections": 28000, "known": [
+  { "code": "KRS", "section": "383.580", "contains": "security deposit" },
+  { "code": "KRS", "section": "413.140", "contains": "one (1) year" } ] }

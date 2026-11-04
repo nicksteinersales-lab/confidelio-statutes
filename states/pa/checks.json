@@ -1,0 +1,4 @@
+{ "name": "Pennsylvania Consolidated Statutes", "minSections": 10000, "known": [
+  { "code": "42", "section": "5524", "contains": "two years" },
+  { "code": "13", "section": "2725", "contains": "four years" },
+  { "code": "23", "section": "3301", "contains": "divorce" } ] }

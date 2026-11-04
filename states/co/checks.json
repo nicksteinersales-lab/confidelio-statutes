@@ -1,0 +1,4 @@
+{ "name": "Colorado Revised Statutes", "minSections": 24000, "known": [
+  { "code": "CRS", "section": "38-12-103", "contains": "security deposit" },
+  { "code": "CRS", "section": "13-80-102", "contains": "two years" },
+  { "code": "CRS", "section": "13-80-101", "contains": "three years" } ] }

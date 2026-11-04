@@ -1,0 +1,3 @@
+{ "name": "Iowa Code", "minSections": 30000, "known": [
+  { "code": "IOWA", "section": "562A.12", "contains": "rental deposit" },
+  { "code": "IOWA", "section": "614.1", "contains": "two years" } ] }

@@ -32,6 +32,17 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 | Nebraska | Nebraska Legislature, https://nebraskalegislature.gov/laws/laws.php (the Revised Statutes, section pages) |
 | Maine | Revisor of Statutes, https://legislature.maine.gov/statutes/ (the Revised Statutes, section pages) |
 | West Virginia | West Virginia Legislature, https://code.wvlegislature.gov/ (the West Virginia Code, every section in its sitemap) |
+| Idaho | Idaho Legislature, https://legislature.idaho.gov/statutesrules/idstat/ (the Idaho Code, section pages) |
+| Colorado | Office of Legislative Legal Services, https://olls.info/crs/ (the official per-title downloads of the Colorado Revised Statutes) |
+| Utah | Office of Legislative Research and General Counsel, https://le.utah.gov/xcode/ (whole-title XML, at the site's crawl delay) |
+| Wyoming | Wyoming Legislature, https://wyoleg.gov/StateStatutes/StatutesDownload (per-title PDFs) |
+| North Dakota | North Dakota Legislative Branch, https://ndlegis.gov/cencode/ (the Century Code, chapter PDFs) |
+| Alaska | Alaska Legislature, https://www.akleg.gov/basis/statutes.asp (whole-title print view), indexed for search and reference only |
+| Pennsylvania | General Assembly, https://www.palegis.us/statutes/consolidated (the Consolidated Statutes and Constitution, whole-title pages) |
+| Kentucky | Legislative Research Commission, https://apps.legislature.ky.gov/law/statutes/ (section PDFs) |
+| Iowa | Iowa Legislature, https://www.legis.iowa.gov/law/iowaCode (chapter XML of the current Code) |
+| Maryland | General Assembly, https://mgaleg.maryland.gov/mgawebsite/Laws/Statutes (one PDF per article) |
+| Alabama | Legislative Services Agency, https://alison.legislature.state.al.us/code-of-alabama (the site's public data service) |
 
 ## How it works
 

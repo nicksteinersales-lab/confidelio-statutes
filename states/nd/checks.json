@@ -1,0 +1,4 @@
+{ "name": "North Dakota Century Code", "minSections": 20000, "known": [
+  { "code": "NDCC", "section": "47-16-07.1", "contains": "security deposit" },
+  { "code": "NDCC", "section": "28-01-16", "contains": "six years" },
+  { "code": "NDCC", "section": "28-01-18", "contains": "two years" } ] }

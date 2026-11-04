@@ -1,0 +1,4 @@
+{ "name": "Wyoming Statutes", "minSections": 14000, "known": [
+  { "code": "WS", "section": "1-21-1208", "contains": "deposit" },
+  { "code": "WS", "section": "1-3-105", "contains": "four (4) years" },
+  { "code": "WS", "section": "1-1-109", "contains": "comparative fault" } ] }

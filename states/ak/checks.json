@@ -1,0 +1,4 @@
+{ "name": "Alaska Statutes", "minSections": 14500, "known": [
+  { "code": "AS", "section": "34.03.070", "contains": "security deposit" },
+  { "code": "AS", "section": "09.10.070", "contains": "two years" },
+  { "code": "AS", "section": "34.03.360", "contains": "abandonment" } ] }

@@ -1,0 +1,4 @@
+{ "name": "Utah Code", "minSections": 19000, "known": [
+  { "code": "UCA", "section": "57-17-3", "contains": "deposit" },
+  { "code": "UCA", "section": "78B-2-307", "contains": "four years" },
+  { "code": "UCA", "section": "57-22-4", "contains": "24 hours" } ] }
