@@ -26,6 +26,12 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 | Vermont | Office of Legislative Counsel, https://legislature.vermont.gov/statutes/ (the Vermont Statutes, one page per chapter) |
 | South Dakota | Legislative Research Council, https://sdlegislature.gov/Statutes (the Codified Laws, from the Legislature's JSON API) |
 | District of Columbia | Council of the District of Columbia, https://github.com/DCCouncil/law-xml-codified (the D.C. Code in official XML) |
+| Kansas | Office of Revisor of Statutes, https://ksrevisor.gov/ksa.html (the Kansas Statutes Annotated, section pages) |
+| Rhode Island | General Assembly, https://webserver.rilegislature.gov/Statutes/ (the General Laws, section pages) |
+| Montana | Legislative Services Division, https://leg.mt.gov/bills/mca/ (the Montana Code Annotated, section pages) |
+| Nebraska | Nebraska Legislature, https://nebraskalegislature.gov/laws/laws.php (the Revised Statutes, section pages) |
+| Maine | Revisor of Statutes, https://legislature.maine.gov/statutes/ (the Revised Statutes, section pages) |
+| West Virginia | West Virginia Legislature, https://code.wvlegislature.gov/ (the West Virginia Code, every section in its sitemap) |
 
 ## How it works
 

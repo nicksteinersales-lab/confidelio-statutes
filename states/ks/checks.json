@@ -1,0 +1,4 @@
+{ "name": "Kansas Statutes Annotated", "minSections": 20000, "known": [
+  { "code": "KSA", "section": "58-2550", "contains": "security deposit" },
+  { "code": "KSA", "section": "58-2543", "contains": "landlord" },
+  { "code": "KSA", "section": "60-513", "contains": "two years" } ] }

@@ -1,0 +1,3 @@
+{ "name": "Nebraska Revised Statutes", "minSections": 20000, "known": [
+  { "code": "NEB", "section": "76-1416", "contains": "security" },
+  { "code": "NEB", "section": "76-201", "contains": "real estate" } ] }

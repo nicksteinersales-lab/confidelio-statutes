@@ -1,0 +1,3 @@
+{ "name": "West Virginia Code", "minSections": 25000, "known": [
+  { "code": "WVC", "section": "37-6A-2", "contains": "security deposit" },
+  { "code": "WVC", "section": "55-2-12", "contains": "two years" } ] }

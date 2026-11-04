@@ -1,0 +1,4 @@
+{ "name": "Rhode Island General Laws", "minSections": 15000, "known": [
+  { "code": "RIGL", "section": "34-18-19", "contains": "security deposit" },
+  { "code": "RIGL", "section": "34-18-15", "contains": "landlord" },
+  { "code": "RIGL", "section": "9-1-14", "contains": "three (3) years" } ] }

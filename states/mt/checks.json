@@ -1,0 +1,3 @@
+{ "name": "Montana Code Annotated", "minSections": 20000, "known": [
+  { "code": "MCA", "section": "70-25-201", "contains": "security deposit" },
+  { "code": "MCA", "section": "70-24-441", "contains": "tenant" } ] }
