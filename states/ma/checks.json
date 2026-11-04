@@ -1,0 +1,14 @@
+{
+  "name": "Massachusetts General Laws",
+  "minSections": 20000,
+  "known": [
+    { "code": "186", "section": "15B", "contains": "security deposit" },
+    { "code": "186", "section": "14", "contains": "quiet enjoyment" },
+    { "code": "239", "section": "8A", "contains": "rent" },
+    { "code": "260", "section": "2A", "contains": "three years" },
+    { "code": "93A", "section": "2", "contains": "unfair" },
+    { "code": "208", "section": "34", "contains": "alimony" },
+    { "code": "149", "section": "148", "contains": "wages" },
+    { "code": "265", "section": "1", "contains": "murder" }
+  ]
+}
