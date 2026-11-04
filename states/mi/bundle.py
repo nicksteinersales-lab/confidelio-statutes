@@ -39,7 +39,7 @@ if LIMIT:
     chapters = chapters[:LIMIT]
 acts = []  # (chapter heading, act object name)
 for ch in chapters:
-    page = get(f"{SITE}/Home/GetObject?objectName={ch}")
+    page = get(f"{SITE}/Laws/MCL?objectName={ch.upper()}")
     time.sleep(PAUSE)
     t = re.search(r"<title>(.*?)</title>", page, re.S)
     cname = html.unescape(re.sub(r"\s+", " ", t.group(1))).replace(" - Michigan Legislature", "").strip() if t else ch
