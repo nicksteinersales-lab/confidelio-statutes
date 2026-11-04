@@ -15,6 +15,7 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 | New York | New York State Senate Open Legislation API, https://legislation.nysenate.gov (every consolidated and unconsolidated law; needs the NY_OPENLEG_KEY repo secret) |
 | Michigan | Michigan Legislature, https://www.legislature.mi.gov/Laws/ChapterIndex (the Michigan Compiled Laws, one official PDF per act) |
 | Arizona | Arizona Legislature, https://www.azleg.gov/arstitle/ (the Arizona Revised Statutes, one page per section) |
+| New Jersey | New Jersey Legislature, https://pub.njleg.gov/statutes/ (the statutes in plain text, updated every weekday) |
 
 ## How it works
 

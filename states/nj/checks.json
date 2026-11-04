@@ -1,0 +1,14 @@
+{
+  "name": "New Jersey Statutes",
+  "minSections": 50000,
+  "known": [
+    { "code": "NJSA", "section": "46:8-21.1", "contains": "deposit" },
+    { "code": "NJSA", "section": "2A:18-61.1", "contains": "removal" },
+    { "code": "NJSA", "section": "2A:42-10.10", "contains": "reprisal" },
+    { "code": "NJSA", "section": "2A:14-1", "contains": "six years" },
+    { "code": "NJSA", "section": "56:8-2", "contains": "unconscionable" },
+    { "code": "NJSA", "section": "2A:34-23", "contains": "alimony" },
+    { "code": "NJSA", "section": "34:11-4.2", "contains": "wages" },
+    { "code": "NJSA", "section": "2C:11-3", "contains": "murder" }
+  ]
+}
