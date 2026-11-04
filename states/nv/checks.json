@@ -1,0 +1,7 @@
+{ "name": "Nevada Revised Statutes", "minSections": 15000, "known": [
+  { "code": "NRS", "section": "118A.242", "contains": "security deposit" },
+  { "code": "NRS", "section": "11.190", "contains": "years" },
+  { "code": "NRS", "section": "598.0915", "contains": "deceptive" },
+  { "code": "NRS", "section": "125.150", "contains": "alimony" },
+  { "code": "NRS", "section": "608.016", "contains": "wages" },
+  { "code": "NRS", "section": "200.010", "contains": "murder" } ] }

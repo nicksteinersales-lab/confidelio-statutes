@@ -1,0 +1,7 @@
+{ "name": "South Carolina Code of Laws", "minSections": 15000, "known": [
+  { "code": "SC", "section": "27-40-410", "contains": "security" },
+  { "code": "SC", "section": "15-3-530", "contains": "three years" },
+  { "code": "SC", "section": "39-5-20", "contains": "unfair" },
+  { "code": "SC", "section": "20-3-130", "contains": "alimony" },
+  { "code": "SC", "section": "41-10-40", "contains": "wages" },
+  { "code": "SC", "section": "16-3-10", "contains": "murder" } ] }

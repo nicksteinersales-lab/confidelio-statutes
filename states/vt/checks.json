@@ -1,0 +1,7 @@
+{ "name": "Vermont Statutes", "minSections": 8000, "known": [
+  { "code": "9", "section": "4461", "contains": "security deposit" },
+  { "code": "12", "section": "511", "contains": "six years" },
+  { "code": "9", "section": "2453", "contains": "unfair" },
+  { "code": "15", "section": "752", "contains": "maintenance" },
+  { "code": "21", "section": "342", "contains": "wages" },
+  { "code": "13", "section": "2301", "contains": "murder" } ] }

@@ -1,0 +1,7 @@
+{ "name": "Delaware Code", "minSections": 10000, "known": [
+  { "code": "25", "section": "5514", "contains": "security deposit" },
+  { "code": "10", "section": "8106", "contains": "3 years" },
+  { "code": "6", "section": "2513", "contains": "deception" },
+  { "code": "13", "section": "1512", "contains": "alimony" },
+  { "code": "19", "section": "1103", "contains": "wages" },
+  { "code": "11", "section": "636", "contains": "murder" } ] }

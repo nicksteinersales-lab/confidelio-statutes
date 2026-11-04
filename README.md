@@ -20,6 +20,10 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 | Oregon | Oregon Legislative Counsel, https://www.oregonlegislature.gov/bills_laws/Pages/ORS.aspx (the Oregon Revised Statutes, one file per chapter) |
 | Massachusetts | Massachusetts General Court, https://malegislature.gov/Laws/GeneralLaws (the General Laws, one page per section) |
 | Missouri | Missouri Revisor of Statutes, https://revisor.mo.gov (the Revised Statutes of Missouri, one page per section) |
+| South Carolina | South Carolina Legislative Council, https://www.scstatehouse.gov/code/statmast.php (the Code of Laws, one page per chapter) |
+| Nevada | Legislative Counsel Bureau, https://www.leg.state.nv.us/NRS/ (the Nevada Revised Statutes, one page per chapter) |
+| Delaware | Delaware Code Revisors, https://delcode.delaware.gov (the Delaware Code, one page per chapter) |
+| Vermont | Office of Legislative Counsel, https://legislature.vermont.gov/statutes/ (the Vermont Statutes, one page per chapter) |
 
 ## How it works
 
@@ -30,5 +34,7 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 5. `index.json` lists every state on the release. The app downloads it at deploy time and verifies each file's SHA-256.
 
 ## Adding a state
+
+Shared helpers for new bundles live in `lib/statelib.py` (fetching, HTML to text, a worker pool, writing parts).
 
 Add `states/<state>/fetch.sh` and `states/<state>/checks.json`. Nothing else changes.
