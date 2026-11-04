@@ -19,6 +19,7 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 | Minnesota | Office of the Revisor of Statutes, https://www.revisor.mn.gov/statutes/ (the Minnesota Statutes, read chapter by chapter) |
 | Oregon | Oregon Legislative Counsel, https://www.oregonlegislature.gov/bills_laws/Pages/ORS.aspx (the Oregon Revised Statutes, one file per chapter) |
 | Massachusetts | Massachusetts General Court, https://malegislature.gov/Laws/GeneralLaws (the General Laws, one page per section) |
+| Missouri | Missouri Revisor of Statutes, https://revisor.mo.gov (the Revised Statutes of Missouri, one page per section) |
 
 ## How it works
 

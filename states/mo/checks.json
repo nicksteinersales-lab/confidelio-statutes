@@ -1,0 +1,12 @@
+{
+  "name": "Revised Statutes of Missouri",
+  "minSections": 20000,
+  "known": [
+    { "code": "RSMO", "section": "535.300", "contains": "security deposit" },
+    { "code": "RSMO", "section": "441.060", "contains": "tenancy" },
+    { "code": "RSMO", "section": "516.120", "contains": "five years" },
+    { "code": "RSMO", "section": "452.330", "contains": "marital property" },
+    { "code": "RSMO", "section": "290.110", "contains": "wages" },
+    { "code": "RSMO", "section": "565.020", "contains": "murder" }
+  ]
+}
