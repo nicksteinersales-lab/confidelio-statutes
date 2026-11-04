@@ -1,6 +1,6 @@
 {
   "name": "New York Consolidated and Unconsolidated Laws",
-  "minSections": 50000,
+  "minSections": 38000,
   "known": [
     { "code": "GOB", "section": "7-108", "contains": "security" },
     { "code": "RPP", "section": "235-B", "contains": "habitab" },
