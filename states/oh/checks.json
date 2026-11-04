@@ -1,0 +1,14 @@
+{
+  "name": "Ohio Revised Code",
+  "minSections": 20000,
+  "known": [
+    { "code": "ORC", "section": "5321.16", "contains": "security deposit" },
+    { "code": "ORC", "section": "5321.15", "contains": "termination of utilities" },
+    { "code": "ORC", "section": "1923.04", "contains": "notice" },
+    { "code": "ORC", "section": "2305.09", "contains": "four years" },
+    { "code": "ORC", "section": "1345.02", "contains": "unfair or deceptive" },
+    { "code": "ORC", "section": "3105.171", "contains": "marital property" },
+    { "code": "ORC", "section": "4113.15", "contains": "wages" },
+    { "code": "ORC", "section": "2903.02", "contains": "murder" }
+  ]
+}
