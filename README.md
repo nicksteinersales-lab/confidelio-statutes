@@ -10,6 +10,7 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 | Illinois | Illinois General Assembly public file repository, https://ftp.ilga.gov/ILCS/ (the Illinois Compiled Statutes, one file per section; ILGA refreshes it about once a year, so an unchanged edition reuses the last build) |
 | Washington | Washington State Legislature, Code Reviser public law files, https://lawfilesext.leg.wa.gov/law/RCW/ (the Revised Code of Washington, one file per section; an unchanged edition reuses the last build) |
 | Ohio | Ohio Legislative Service Commission, https://codes.ohio.gov/ohio-revised-code (the Ohio Revised Code, read chapter by chapter; each chapter page carries every section) |
+| North Carolina | North Carolina General Assembly, https://www.ncleg.gov/Laws/GeneralStatutesTOC (the General Statutes, read chapter by chapter) |
 
 ## How it works
 

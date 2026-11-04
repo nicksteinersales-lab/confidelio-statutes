@@ -1,0 +1,14 @@
+{
+  "name": "North Carolina General Statutes",
+  "minSections": 20000,
+  "known": [
+    { "code": "GS", "section": "42-52", "contains": "security" },
+    { "code": "GS", "section": "42-46", "contains": "late" },
+    { "code": "GS", "section": "42-26", "contains": "tenant" },
+    { "code": "GS", "section": "75-1.1", "contains": "unfair" },
+    { "code": "GS", "section": "1-52", "contains": "three years" },
+    { "code": "GS", "section": "50-20", "contains": "equitable distribution" },
+    { "code": "GS", "section": "95-25.6", "contains": "wages" },
+    { "code": "GS", "section": "14-17", "contains": "murder" }
+  ]
+}
