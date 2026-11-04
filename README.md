@@ -13,6 +13,7 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 | North Carolina | North Carolina General Assembly, https://www.ncleg.gov/Laws/GeneralStatutesTOC (the General Statutes, read chapter by chapter) |
 | Virginia | Virginia Division of Legislative Services, https://law.lis.virginia.gov/vacode/ (the Code of Virginia, read chapter by chapter) |
 | New York | New York State Senate Open Legislation API, https://legislation.nysenate.gov (every consolidated and unconsolidated law; needs the NY_OPENLEG_KEY repo secret) |
+| Michigan | Michigan Legislature, https://www.legislature.mi.gov/Laws/ChapterIndex (the Michigan Compiled Laws, one official PDF per act) |
 
 ## How it works
 

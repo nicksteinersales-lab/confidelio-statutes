@@ -1,0 +1,13 @@
+{
+  "name": "Michigan Compiled Laws",
+  "minSections": 20000,
+  "known": [
+    { "code": "MCL", "section": "554.613", "contains": "security deposit" },
+    { "code": "MCL", "section": "600.5714", "contains": "possession" },
+    { "code": "MCL", "section": "600.5805", "contains": "years" },
+    { "code": "MCL", "section": "445.903", "contains": "unfair" },
+    { "code": "MCL", "section": "750.316", "contains": "murder" },
+    { "code": "MCL", "section": "408.475", "contains": "wages" },
+    { "code": "MCL", "section": "552.23", "contains": "spousal" }
+  ]
+}
