@@ -16,6 +16,8 @@ Full text of state codes, rebuilt weekly from each state's official source and p
 | Michigan | Michigan Legislature, https://www.legislature.mi.gov/Laws/ChapterIndex (the Michigan Compiled Laws, one official PDF per act) |
 | Arizona | Arizona Legislature, https://www.azleg.gov/arstitle/ (the Arizona Revised Statutes, one page per section) |
 | New Jersey | New Jersey Legislature, https://pub.njleg.gov/statutes/ (the statutes in plain text, updated every weekday) |
+| Minnesota | Office of the Revisor of Statutes, https://www.revisor.mn.gov/statutes/ (the Minnesota Statutes, read chapter by chapter) |
+| Oregon | Oregon Legislative Counsel, https://www.oregonlegislature.gov/bills_laws/Pages/ORS.aspx (the Oregon Revised Statutes, one file per chapter) |
 
 ## How it works
 

@@ -1,0 +1,14 @@
+{
+  "name": "Oregon Revised Statutes",
+  "minSections": 20000,
+  "known": [
+    { "code": "ORS", "section": "90.300", "contains": "security deposit" },
+    { "code": "ORS", "section": "90.394", "contains": "nonpayment" },
+    { "code": "ORS", "section": "90.320", "contains": "habitab" },
+    { "code": "ORS", "section": "12.110", "contains": "two years" },
+    { "code": "ORS", "section": "646.608", "contains": "unlawful" },
+    { "code": "ORS", "section": "107.105", "contains": "property" },
+    { "code": "ORS", "section": "652.140", "contains": "wages" },
+    { "code": "ORS", "section": "163.115", "contains": "murder" }
+  ]
+}

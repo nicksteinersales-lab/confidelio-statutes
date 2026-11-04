@@ -1,0 +1,14 @@
+{
+  "name": "Minnesota Statutes",
+  "minSections": 20000,
+  "known": [
+    { "code": "MS", "section": "504B.178", "contains": "security deposit" },
+    { "code": "MS", "section": "504B.285", "contains": "eviction" },
+    { "code": "MS", "section": "504B.161", "contains": "covenant" },
+    { "code": "MS", "section": "541.05", "contains": "six years" },
+    { "code": "MS", "section": "325F.69", "contains": "fraud" },
+    { "code": "MS", "section": "518.58", "contains": "marital property" },
+    { "code": "MS", "section": "181.101", "contains": "wages" },
+    { "code": "MS", "section": "609.185", "contains": "murder" }
+  ]
+}
