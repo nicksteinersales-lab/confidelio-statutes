@@ -45,4 +45,4 @@ def one(item):
     if catch: text = re.sub(r"^[.\s]*" + re.escape(catch.rstrip(". ")) + r"\.?\s*", "", text)
     body = re.split(r"\n\s*Source:", text)[0].strip()
     return row("SDCL", sid, cname, catch, body)
-write(pool(one, items, 4, 2000, "sections"), out, "SD", "https://sdlegislature.gov/Statutes (South Dakota Legislative Research Council)")
+write(pool(one, items, 3, 2000, "sections"), out, "SD", "https://sdlegislature.gov/Statutes (South Dakota Legislative Research Council)")

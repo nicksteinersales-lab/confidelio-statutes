@@ -19,8 +19,15 @@ def get(url, binary=False, encoding="utf-8", pause=0.25, allow404=False, timeout
         except urllib.error.HTTPError as e:
             if e.code == 404 and allow404:
                 return None
+            if e.code in (401, 403):  # refused: never retry past a block
+                raise
             if attempt == 4:
                 raise
+            if e.code == 429:  # the site asked us to slow down: wait as long as it says
+                try: wait = min(300, int(e.headers.get("Retry-After", "60")))
+                except ValueError: wait = 60
+                time.sleep(wait)
+                continue
         except Exception:
             if attempt == 4:
                 raise
