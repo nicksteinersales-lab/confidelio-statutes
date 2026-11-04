@@ -58,10 +58,16 @@ def get(url):
 
 readme = get(BASE + "aReadMe/aReadMe.txt")
 m = re.search(r"updated on (\d{1,2})/(\d{1,2})/(\d{4}) with all Public Acts through Public Act ([\d-]+)", readme)
-if not m:
-    sys.exit("Could not read the edition date from aReadMe.txt")
-edition = f"{m.group(3)}-{int(m.group(1)):02d}-{int(m.group(2)):02d}"
-source_date = f"{edition} (through P.A. {m.group(4)})"
+if m:
+    edition = f"{m.group(3)}-{int(m.group(1)):02d}-{int(m.group(2)):02d}"
+    source_date = f"{edition} (through P.A. {m.group(4)})"
+else:
+    # The readme's wording changed (Nov 2026): take any date it gives, else today.
+    print("aReadMe.txt begins:", readme[:400].replace("\n", " | "), flush=True)
+    d = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})", readme)
+    pa = re.search(r"Public Act ([\d-]+)", readme)
+    edition = f"{d.group(3)}-{int(d.group(1)):02d}-{int(d.group(2)):02d}" if d else datetime.date.today().isoformat()
+    source_date = edition + (f" (through P.A. {pa.group(1)})" if pa else "")
 print("Illinois Compiled Statutes, edition", source_date, flush=True)
 
 def write_parts(rows):
