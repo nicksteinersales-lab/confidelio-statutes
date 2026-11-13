@@ -1,0 +1,30 @@
+# Join a desktop build that was uploaded to a release in parts (name.part00, name.part01, ...) into one asset.
+# Used when the uploading connection is too slow to send the whole file in one go.
+name: Assemble release asset
+on:
+  workflow_dispatch:
+    inputs:
+      tag: { description: Release tag, required: true }
+      name: { description: Final asset name, required: true }
+      sha256: { description: Expected SHA-256 of the joined file, required: true }
+permissions:
+  contents: write
+jobs:
+  join:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: ${{ inputs.tag }}
+      NAME: ${{ inputs.name }}
+      SHA: ${{ inputs.sha256 }}
+    steps:
+      - name: Join, check and upload
+        run: |
+          set -euo pipefail
+          gh release download "$TAG" -R "$GITHUB_REPOSITORY" -p "$NAME.part*" -D parts
+          ls -la parts
+          cat $(ls parts/"$NAME".part* | sort) > "$NAME"
+          echo "$SHA  $NAME" | sha256sum -c -
+          gh release upload "$TAG" "$NAME" -R "$GITHUB_REPOSITORY" --clobber
+          for p in parts/*; do gh release delete-asset "$TAG" "$(basename "$p")" -R "$GITHUB_REPOSITORY" -y; done
